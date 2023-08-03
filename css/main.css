@@ -1,0 +1,126 @@
+/* be-vietnam-pro-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/be-vietnam-pro-v11-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* be-vietnam-pro-300italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Be Vietnam Pro';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../fonts/be-vietnam-pro-v11-latin-300italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* be-vietnam-pro-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/be-vietnam-pro-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* be-vietnam-pro-italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Be Vietnam Pro';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/be-vietnam-pro-v11-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* be-vietnam-pro-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/be-vietnam-pro-v11-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* be-vietnam-pro-500italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Be Vietnam Pro';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/be-vietnam-pro-v11-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* be-vietnam-pro-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/be-vietnam-pro-v11-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* be-vietnam-pro-600italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Be Vietnam Pro';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/be-vietnam-pro-v11-latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+   /* ROOT START */
+  
+:root {
+    /* --primary-midngith-green-color:#014E56; */
+    /* --primary-light-coral-color:#F67E7E; */
+    --primary-white-color: #FFFFFF;
+    /* --secondary-rapture-blue-color:#79C8C7; */
+    /* --secondary-police-blue-color:#2C6269; */
+    /* --secondary-deep-jungle-green-color:#004047; */
+    /* --secondary-sacramento-state-green-color:#012F34; */
+    /* --secondary-dark-green-color:#002529; */
+
+}
+    /* ROOT END */
+
+  /* GLOBAL STYLEAS */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family:'Be Vietnam Pro',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color:var(--primary-white-color);
+}
+
+main{
+    flex-grow: 1;
+}
+
+.container{
+    width: 100%;
+    max-width: 1150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
